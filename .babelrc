@@ -1,0 +1,12 @@
+{
+  "presets": ["es2015", "stage-0", "react"],
+  "plugins": ["syntax-class-properties"],
+  "env": {
+    "test": {
+      "plugins": [
+        ["webpack-loaders", { "config": "webpack.node.config.js", "verbose": false }],
+        "istanbul"
+      ]
+    }
+  }
+}
