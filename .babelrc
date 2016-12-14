@@ -1,6 +1,6 @@
 {
   "presets": ["es2015", "stage-0", "react"],
-  "plugins": ["syntax-class-properties"],
+  "plugins": ["syntax-class-properties", "react-hot-loader/babel"],
   "env": {
     "test": {
       "plugins": [
